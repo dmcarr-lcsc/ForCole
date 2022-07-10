@@ -1,0 +1,34 @@
+import tkinter as tk
+
+plane = tk.Tk()
+plane.title("CS Airlines ")
+plane.geometry("500x500")
+
+#First Class Rows A - C
+#Row A
+first_class = tk.Label(text="First Class").grid(row=1, column=0)
+rowA = tk.Label(text="Row A:").grid(row=2, column=0)
+A1 = tk.Button(text="A1", bg='green', activebackground='white').grid(row=2, column=1)
+A2 = tk.Button(text="A2", bg='green', activebackground='white').grid(row=2, column=2)
+A3 = tk.Button(text="A3", bg='green', activebackground='white').grid(row=2, column=3)
+Aasile = tk.Label(text="       ").grid(row=2, column=4)
+A4 = tk.Button(text="A4", bg='green', activebackground='white').grid(row=2, column=5)
+A5 = tk.Button(text="A5", bg='green', activebackground='white').grid(row=2, column=6)
+A6 = tk.Button(text="A6", bg='green', activebackground='white').grid(row=2, column=7)
+A7 = tk.Button(text="A7", bg='green', activebackground='white').grid(row=2, column=8)
+
+#Row B
+rowB = tk.Label(text="Row B:").grid(row=3, column=0)
+B1 = tk.Button(text="B1", bg='green', activebackground='white').grid(row=3, column=1)
+B2 = tk.Button(text="B2", bg='green', activebackground='white').grid(row=3, column=2)
+B3 = tk.Button(text="B3", bg='green', activebackground='white').grid(row=3, column=3)
+Basile = tk.Label(text="       ").grid(row=3, column=4)
+B4 = tk.Button(text="B4", bg='green', activebackground='white').grid(row=3, column=5)
+B5 = tk.Button(text="B5", bg='green', activebackground='white').grid(row=3, column=6)
+B6 = tk.Button(text="B6", bg='green', activebackground='white').grid(row=3, column=7)
+B7 = tk.Button(text="B7", bg='green', activebackground='white').grid(row=3, column=8)
+
+#Row C
+
+
+tk.mainloop()
